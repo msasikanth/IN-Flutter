@@ -5,3 +5,4 @@
 build/
 .flutter-plugins
 /android/key.properties
+/lib/apikey.dart

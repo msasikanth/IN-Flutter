@@ -51,3 +51,20 @@ class NewsSource {
     );
   }
 }
+
+class Country {
+  final String name;
+  final String code;
+
+  Country({this.name, this.code});
+}
+
+final countries = [
+  Country(name: "US", code: "us"),
+  Country(name: "United Kingdom", code: "gb"),
+  Country(name: "Canada", code: "ca"),
+  Country(name: "Australia", code: "au"),
+  Country(name: "India", code: "in"),
+  Country(name: "China", code: "cn"),
+  Country(name: "Brazil", code: "br"),
+];
